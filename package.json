@@ -2,6 +2,10 @@
   "name": "yamlify",
   "description": "YAML for browserify and node.js; YAML includes",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmapper/yamlify.git"
+  },
   "main": "index.js",
   "engines": {
     "node": "0.10.x"
