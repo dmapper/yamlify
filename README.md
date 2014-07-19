@@ -6,21 +6,31 @@
 
 ## YAML support for browserify and node.js
 
-### Yamlify!
+Yamlify!
 ```js
+// server.js
+
 var browserify = require('browserify');
 var yamlify = require('yamlify');
 
 b = browserify();
-b.add('foobar.js');
+b.add('client.js');
 b.transform(yamlify);
 ```
 
-### Add ability to require YAML files in Node.js
+Add ability to require YAML files in Node.js
 ```js
+// server.js
+
 require('yamlify/register');
 ```
 
+After that you can require yaml wherever you want: 
+```js
+// client.js or server.js
+
+var constants = require('constants.yaml');
+```
 
 ## YAML files inclusions
 
