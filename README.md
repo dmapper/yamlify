@@ -4,14 +4,6 @@
 > With feature to include `yaml` files into each other.  
          
 
-## features
-
-1. Adds `!include` yaml type for ability to include yaml file 
-    into each other.
-2. You can use `require('yamlify/register')` to add `.yaml`, `.yml` files
-    support to `node.js`
-
-
 ## YAML support for browserify and node.js
 
 ### Yamlify!
