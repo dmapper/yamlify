@@ -3,12 +3,14 @@
 > YAML (`.yaml`, `.yml`) files support for browserify and node.  
 > With feature to include `yaml` files into each other.  
          
+
 ## features
 
 1. Adds `!include` yaml type for ability to include yaml file 
     into each other.
 2. You can use `require('yamlify/register')` to add `.yaml`, `.yml` files
     support to `node.js`
+
 
 ## YAML support for browserify and node.js
 
@@ -26,6 +28,7 @@ b.transform(yamlify);
 ```js
 require('yamlify/register');
 ```
+
 
 ## YAML files inclusions
 
@@ -59,3 +62,7 @@ You can also include a particular anchor from the specified file:
 name: John Smith
 favouriteFilm: !include ./_films *terminator
 ```
+
+
+## licence
+MIT
