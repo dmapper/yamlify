@@ -24,7 +24,7 @@ b.add('foobar.js');
 b.transform(yamlify);
 ```
 
-### YAML support for Node.js
+### Add ability to require YAML files in Node.js
 ```js
 require('yamlify/register');
 ```
