@@ -1,0 +1,14 @@
+{
+  "name": "yamlify",
+  "description": "YAML for browserify and node.js; YAML includes support",
+  "version": "0.0.1",
+  "main": "index.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "js-yaml": "~3.0.2",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {}
+}
