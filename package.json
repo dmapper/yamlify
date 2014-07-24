@@ -14,5 +14,10 @@
     "js-yaml": "~3.0.2",
     "through": "~2.3.4"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "keywords": [
+    "yaml",
+    "browserify",
+    "browserify-transform"
+  ]
 }
