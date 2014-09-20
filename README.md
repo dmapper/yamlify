@@ -29,7 +29,7 @@ After that you can require yaml wherever you want:
 ```js
 // client.js or server.js
 
-var constants = require('constants.yaml');
+var constants = require('./constants.yaml');
 ```
 
 ## YAML files inclusions
