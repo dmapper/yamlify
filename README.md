@@ -14,7 +14,7 @@ var browserify = require('browserify');
 var yamlify = require('yamlify');
 
 b = browserify();
-b.add('client.js');
+b.add('./client.js');
 b.transform(yamlify);
 ```
 
