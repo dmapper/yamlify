@@ -1,10 +1,8 @@
 var fs   = require('fs');
 var yaml = require('js-yaml');
-var includeSchema = require('./includeSchema');
 
 var yamlRequire = function (m, f) {
   m.exports = yaml.safeLoad(fs.readFileSync(f, 'utf8'), {
-    schema: includeSchema,
     filename: f
   });
 };
