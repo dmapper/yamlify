@@ -7,9 +7,6 @@
     "url": "git://github.com/dmapper/yamlify.git"
   },
   "main": "index.js",
-  "engines": {
-    "node": "0.10.x"
-  },
   "dependencies": {
     "js-yaml": "~3.0.2",
     "through": "~2.3.4"
