@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git://github.com/dmapper/yamlify.git"
   },
+  "license": "MIT",
   "main": "index.js",
   "dependencies": {
     "js-yaml": "~3.0.2",
