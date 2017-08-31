@@ -11,11 +11,15 @@ module.exports = function(file) {
   }
 
   function end() {
-    this.queue('module.exports = ' + JSON.stringify(yaml.safeLoad(data, {
-      schema: includeSchema,
-      filename: file
-    })) + ';');
-    this.queue(null);
+    try{
+      this.queue('module.exports = ' + JSON.stringify(yaml.safeLoad(data, {
+        schema: includeSchema,
+        filename: file
+      })) + ';');
+      this.queue(null);
+    }catch(err){
+      this.emit('error', err)
+    }
   }
 
   return through(write, end);
